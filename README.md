@@ -134,4 +134,315 @@ In this specific case, the theme color is set to black (#000000), which means th
 <meta property="og:title" content="My Page Title" />
 ```
 
-Open Graph meta elements are on the way
+This code is an Open Graph (OG) meta tag that specifies the title of a web page for social media sharing. The "property" attribute specifies the type of metadata being defined, in this case, "og:title". The "content" attribute provides the value of the metadata, which is the title of the web page.
+
+When a user shares a link to this web page on social media, such as Facebook, Twitter, or LinkedIn, the "og:title" metadata will be used to populate the title of the shared post or link. This helps ensure that the shared content accurately represents the web page being shared and provides context for the user who sees the shared content.
+
+It's important to note that OG meta tags are used primarily for social media sharing and may not be used or displayed by all web applications or services. Additionally, it's important to use accurate and descriptive titles in OG meta tags to ensure that the shared content accurately represents the web page being shared.
+
+---
+
+```html
+<meta property="og:description" content="Description of my web page" />
+```
+
+This code is an Open Graph (OG) meta tag that specifies the description of a web page for social media sharing. The "property" attribute specifies the type of metadata being defined, in this case, "og:description". The "content" attribute provides the value of the metadata, which is the description of the web page.
+
+When a user shares a link to this web page on social media, such as Facebook, Twitter, or LinkedIn, the "og:description" metadata will be used to populate the description of the shared post or link. This helps ensure that the shared content accurately represents the web page being shared and provides context for the user who sees the shared content.
+
+It's important to note that OG meta tags are used primarily for social media sharing and may not be used or displayed by all web applications or services. Additionally, it's important to use accurate and descriptive descriptions in OG meta tags to ensure that the shared content accurately represents the web page being shared.
+
+---
+
+```html
+<meta property="og:image" content="https://www.example.com/image.jpg" />
+```
+
+This code is an Open Graph (OG) meta tag that specifies the image to be used when a web page is shared on social media. The "property" attribute specifies the type of metadata being defined, in this case, "og:image". The "content" attribute provides the value of the metadata, which is the URL of the image that will be used.
+
+When a user shares a link to this web page on social media, such as Facebook, Twitter, or LinkedIn, the "og:image" metadata will be used to display the image that is associated with the shared link or post. This helps attract attention to the shared content and provides visual context for the user who sees the shared content.
+
+It's important to note that OG meta tags are used primarily for social media sharing and may not be used or displayed by all web applications or services. Additionally, it's important to use high-quality and relevant images in OG meta tags to ensure that the shared content accurately represents the web page being shared and engages the user who sees the shared content.
+
+---
+
+```html
+<meta property="og:image:url" content="https://example.com/.jpg" />
+```
+
+The code you provided is an Open Graph (OG) meta tag that specifies the URL of an image to be used when a web page is shared on social media. The "property" attribute specifies the type of metadata being defined, in this case, "og:image:url". The "content" attribute provides the value of the metadata, which is the URL of the image that will be used.
+
+The "og:image:url" property is used to provide an alternate URL for the image specified in the "og:image" property. This can be useful in situations where the original image URL cannot be accessed or is not available for some reason. If both "og:image" and "og:image:url" properties are present, the value of "og:image:url" will be used.
+
+It's important to note that OG meta tags are used primarily for social media sharing and may not be used or displayed by all web applications or services. Additionally, it's important to use high-quality and relevant images in OG meta tags to ensure that the shared content accurately represents the web page being shared and engages the user who sees the shared content.
+
+---
+
+```html
+<meta
+  property="og:image:secure_url"
+  content="https://secure.example.com/ogp.jpg"
+/>
+```
+
+The code you provided is an Open Graph (OG) meta tag that specifies the secure URL of an image to be used when a web page is shared on social media. The "property" attribute specifies the type of metadata being defined, in this case, "og:image:secure_url". The "content" attribute provides the value of the metadata, which is the secure URL of the image that will be used.
+
+The "og:image:secure_url" property is used to specify a secure version of the image specified in the "og:image" property. This is important for web pages that are served over HTTPS and require secure images to maintain the security of the page.
+
+It's important to note that OG meta tags are used primarily for social media sharing and may not be used or displayed by all web applications or services. Additionally, it's important to use high-quality and relevant images in OG meta tags to ensure that the shared content accurately represents the web page being shared and engages the user who sees the shared content.
+
+---
+
+```html
+<meta property="og:image:type" content="image/jpeg" />
+```
+
+The code you provided is an Open Graph (OG) meta tag that specifies the type of an image to be used when a web page is shared on social media. The "property" attribute specifies the type of metadata being defined, in this case, "og:image:type". The "content" attribute provides the value of the metadata, which is the MIME type of the image that will be used.
+
+The "og:image:type" property is used to specify the type of image file being shared, which helps social media platforms understand how to handle and display the image. Common image types include "image/jpeg", "image/png", and "image/gif".
+
+It's important to note that OG meta tags are used primarily for social media sharing and may not be used or displayed by all web applications or services. Additionally, it's important to use high-quality and relevant images in OG meta tags to ensure that the shared content accurately represents the web page being shared and engages the user who sees the shared content.
+
+---
+
+```html
+<meta property="og:image:width" content="400" />
+```
+
+The code you provided is an Open Graph (OG) meta tag that specifies the width of an image to be used when a web page is shared on social media. The "property" attribute specifies the type of metadata being defined, in this case, "og:image:width". The "content" attribute provides the value of the metadata, which is the width of the image in pixels.
+
+The "og:image:width" property is used to provide information about the dimensions of the image being shared, which helps social media platforms display the image in the correct size and aspect ratio.
+
+It's important to note that OG meta tags are used primarily for social media sharing and may not be used or displayed by all web applications or services. Additionally, it's important to use high-quality and relevant images in OG meta tags to ensure that the shared content accurately represents the web page being shared and engages the user who sees the shared content.
+
+---
+
+```html
+<meta property="og:image:height" content="300" />
+```
+
+The code you provided is an Open Graph (OG) meta tag that specifies the height of an image to be used when a web page is shared on social media. The "property" attribute specifies the type of metadata being defined, in this case, "og:image:height". The "content" attribute provides the value of the metadata, which is the height of the image in pixels.
+
+The "og:image:height" property is used to provide information about the dimensions of the image being shared, which helps social media platforms display the image in the correct size and aspect ratio.
+
+It's important to note that OG meta tags are used primarily for social media sharing and may not be used or displayed by all web applications or services. Additionally, it's important to use high-quality and relevant images in OG meta tags to ensure that the shared content accurately represents the web page being shared and engages the user who sees the shared content.
+
+---
+
+```html
+<meta property="og:image:alt" content="Alternative text for image" />
+```
+
+The code you provided is an Open Graph (OG) meta tag that specifies the alternative text for an image to be used when a web page is shared on social media. The "property" attribute specifies the type of metadata being defined, in this case, "og:image:alt". The "content" attribute provides the value of the metadata, which is the alternative text for the image being shared.
+
+The "og:image:alt" property is used to provide alternative text for an image being shared on social media. This alternative text is important for users who may not be able to see the image or who may be using a screen reader to browse the web.
+
+It's important to note that OG meta tags are used primarily for social media sharing and may not be used or displayed by all web applications or services. Additionally, it's important to use relevant and descriptive alternative text in OG meta tags to ensure that the shared content accurately represents the web page being shared and is accessible to all users.
+
+---
+
+```html
+<meta property="og:url" content="https://www.example.com/my-page" />
+```
+
+The code you provided is an Open Graph (OG) meta tag that specifies the URL of the web page being shared on social media. The "property" attribute specifies the type of metadata being defined, in this case, "og:url". The "content" attribute provides the value of the metadata, which is the URL of the web page being shared.
+
+The "og:url" property is used to provide the canonical URL of the web page being shared on social media. This helps social media platforms ensure that the correct URL is used when displaying shared content and can help prevent issues with duplicate content.
+
+It's important to note that OG meta tags are used primarily for social media sharing and may not be used or displayed by all web applications or services. Additionally, it's important to use the correct canonical URL in OG meta tags to ensure that the shared content accurately represents the web page being shared and to avoid issues with duplicate content.
+
+---
+
+```html
+<meta property="og:type" content="website" />
+```
+
+The code you provided is an Open Graph (OG) meta tag that specifies the type of object being shared on social media. The "property" attribute specifies the type of metadata being defined, in this case, "og:type". The "content" attribute provides the value of the metadata, which is the type of object being shared.
+
+The "og:type" property is used to provide information about the type of object being shared on social media. This can be a website, article, video, product, and so on. Specifying the correct object type helps social media platforms understand and display the shared content correctly.
+
+In the example you provided, the "website" value for the "og:type" property indicates that the shared content is a website. This is a common value used for web pages and indicates that the shared content is not an article, product, or other specific type of object.
+
+It's important to note that OG meta tags are used primarily for social media sharing and may not be used or displayed by all web applications or services. Additionally, it's important to use the correct object type in OG meta tags to ensure that the shared content is displayed correctly on social media platforms.
+
+---
+
+```html
+<meta name="twitter:title" content="Page Title" />
+```
+
+The code you provided is a Twitter card meta tag that specifies the title of the web page being shared on Twitter. The "name" attribute specifies the type of metadata being defined, in this case, "twitter:title". The "content" attribute provides the value of the metadata, which is the title of the web page being shared.
+
+Twitter card meta tags are used to customize how shared content appears on Twitter. When a web page is shared on Twitter, the Twitter card meta tags are used to provide additional information about the shared content, such as the title, description, and image.
+
+In the example you provided, the "twitter:title" property specifies the title of the shared content on Twitter. This can be different from the title of the web page itself and can be used to create a more compelling and attention-grabbing title for the shared content on Twitter.
+
+It's important to note that Twitter card meta tags are specific to Twitter and may not be used or displayed by all web applications or services. Additionally, it's important to use the correct metadata in Twitter card meta tags to ensure that the shared content is displayed correctly on Twitter.
+
+---
+
+```html
+<meta name="twitter:description" content="Page Description" />
+```
+
+The code you provided is a Twitter card meta tag that specifies the description of the web page being shared on Twitter. The "name" attribute specifies the type of metadata being defined, in this case, "twitter:description". The "content" attribute provides the value of the metadata, which is the description of the web page being shared.
+
+Twitter card meta tags are used to customize how shared content appears on Twitter. When a web page is shared on Twitter, the Twitter card meta tags are used to provide additional information about the shared content, such as the title, description, and image.
+
+In the example you provided, the "twitter:description" property specifies the description of the shared content on Twitter. This can be different from the meta description of the web page itself and can be used to create a more compelling and attention-grabbing description for the shared content on Twitter.
+
+It's important to note that Twitter card meta tags are specific to Twitter and may not be used or displayed by all web applications or services. Additionally, it's important to use the correct metadata in Twitter card meta tags to ensure that the shared content is displayed correctly on Twitter.
+
+---
+
+```html
+<meta name="twitter:card" content="summary_large_image" />
+```
+
+The code you provided is a Twitter card meta tag that specifies the type of Twitter card being used for the shared content. The "name" attribute specifies the type of metadata being defined, in this case, "twitter:card". The "content" attribute provides the value of the metadata, which is the type of Twitter card being used.
+
+In the example you provided, the "twitter:card" property specifies that the content being shared on Twitter is a "summary_large_image" card. This type of card is used when sharing content that contains a large image, along with a title, description, and other metadata.
+
+Twitter card meta tags are used to customize how shared content appears on Twitter. When a web page is shared on Twitter, the Twitter card meta tags are used to provide additional information about the shared content, such as the title, description, image, and type of card being used.
+
+It's important to note that Twitter card meta tags are specific to Twitter and may not be used or displayed by all web applications or services. Additionally, it's important to use the correct metadata in Twitter card meta tags to ensure that the shared content is displayed correctly on Twitter.
+
+---
+
+```html
+<meta name="twitter:site" content="@YourSite" />
+```
+
+The code you provided is a Twitter card meta tag that specifies the Twitter username associated with the website being shared. The "name" attribute specifies the type of metadata being defined, in this case, "twitter:site". The "content" attribute provides the value of the metadata, which is the Twitter username associated with the website being shared.
+
+In the example you provided, the "twitter:site" property specifies the Twitter username "@YourSite". This meta tag is used to indicate the Twitter account that is associated with the website being shared. When this meta tag is present, Twitter may display a "follow" button or other information related to the Twitter account in the shared content.
+
+Twitter card meta tags are used to customize how shared content appears on Twitter. When a web page is shared on Twitter, the Twitter card meta tags are used to provide additional information about the shared content, such as the title, description, image, and type of card being used. The "twitter:site" meta tag is one of several optional Twitter card meta tags that can be used to provide additional information about the shared content.
+
+---
+
+```html
+<meta name="twitter:creator" content="@YourTwitterHandle" />
+```
+
+The code you provided is a Twitter card meta tag that specifies the Twitter handle of the content creator. The "name" attribute specifies the type of metadata being defined, in this case, "twitter:creator". The "content" attribute provides the value of the metadata, which is the Twitter handle of the content creator.
+
+In the example you provided, the "twitter:creator" property specifies the Twitter handle "@YourTwitterHandle". This meta tag is used to indicate the Twitter handle of the person or organization that created the content being shared. When this meta tag is present, Twitter may display the Twitter handle of the content creator in the shared content.
+
+Twitter card meta tags are used to customize how shared content appears on Twitter. When a web page is shared on Twitter, the Twitter card meta tags are used to provide additional information about the shared content, such as the title, description, image, and type of card being used. The "twitter:creator" meta tag is one of several optional Twitter card meta tags that can be used to provide additional information about the content being shared.
+
+---
+
+```html
+<meta name="twitter:image:src" content="https://www.example.com/image.jpg" />
+```
+
+The code you provided is a Twitter card meta tag that specifies the URL of the image that should be displayed when the content is shared on Twitter. The "name" attribute specifies the type of metadata being defined, in this case, "twitter:image:src". The "content" attribute provides the value of the metadata, which is the URL of the image that should be displayed.
+
+In the example you provided, the "twitter:image:src" property specifies the URL "https://www.example.com/image.jpg". This meta tag is used to indicate the image that should be displayed when the content is shared on Twitter. When this meta tag is present, Twitter may display the specified image in the shared content, depending on the type of Twitter card being used.
+
+Twitter card meta tags are used to customize how shared content appears on Twitter. When a web page is shared on Twitter, the Twitter card meta tags are used to provide additional information about the shared content, such as the title, description, image, and type of card being used. The "twitter:image:src" meta tag is one of several optional Twitter card meta tags that can be used to provide additional information about the content being shared.
+
+---
+
+```html
+<meta name="twitter:image:alt" content="Alternative text for image" />
+```
+
+The code you provided is a Twitter card meta tag that specifies the alternative text for the image when the content is shared on Twitter. The "name" attribute specifies the type of metadata being defined, in this case, "twitter:image:alt". The "content" attribute provides the value of the metadata, which is the alternative text that should be displayed for the image.
+
+In the example you provided, the "twitter:image:alt" property specifies the alternative text "Alternative text for image". This meta tag is used to provide a text alternative for the image that should be displayed when the content is shared on Twitter. This alternative text can be used by assistive technologies to describe the image to users who may not be able to see it.
+
+Twitter card meta tags are used to customize how shared content appears on Twitter. When a web page is shared on Twitter, the Twitter card meta tags are used to provide additional information about the shared content, such as the title, description, image, and type of card being used. The "twitter:image:alt" meta tag is one of several optional Twitter card meta tags that can be used to provide additional information about the content being shared.
+
+---
+
+```html
+<meta name="twitter:domain" content="example.com" />
+```
+
+The code you provided is a Twitter card meta tag that specifies the domain associated with the content being shared on Twitter. The "name" attribute specifies the type of metadata being defined, in this case, "twitter:domain". The "content" attribute provides the value of the metadata, which is the domain name that is associated with the content being shared.
+
+In the example you provided, the "twitter:domain" property specifies the domain name "example.com". This meta tag is used to provide additional information about the content being shared on Twitter, and can be used to provide context about the source of the content. This meta tag is optional and is not required for Twitter cards to work properly, but it can be useful in certain cases where it's important to provide additional information about the content being shared.
+
+---
+
+```html
+<meta name="twitter:app:name:iphone" content="App Name" />
+```
+
+The code you provided is a Twitter card meta tag that specifies the name of the iPhone app that should be used to open the content being shared on Twitter. The "name" attribute specifies the type of metadata being defined, in this case, "twitter:app:name:iphone". The "content" attribute provides the value of the metadata, which is the name of the iPhone app that should be used to open the content.
+
+In the example you provided, the "twitter:app:name:iphone" property specifies the name of the app as "App Name". This meta tag is used to provide additional information about the content being shared on Twitter, and can be used to indicate that there is a corresponding mobile app that can be used to view the content. This meta tag is optional and is not required for Twitter cards to work properly, but it can be useful in certain cases where it's important to provide additional information about the content being shared and the corresponding app.
+
+---
+
+```html
+<meta name="twitter:app:id:iphone" content="App ID" />
+```
+
+The code you provided is a Twitter card meta tag that specifies the unique identifier (ID) of the iPhone app that should be used to open the content being shared on Twitter. The "name" attribute specifies the type of metadata being defined, in this case, "twitter:app:id:iphone". The "content" attribute provides the value of the metadata, which is the unique identifier of the iPhone app that should be used to open the content.
+
+In the example you provided, the "twitter:app:id:iphone" property specifies the ID of the app as "App ID". This meta tag is used in conjunction with the "twitter:app:name:iphone" meta tag to provide additional information about the content being shared on Twitter and the corresponding mobile app that can be used to view the content. This meta tag is optional and is not required for Twitter cards to work properly, but it can be useful in certain cases where it's important to provide additional information about the app being used to view the content.
+
+---
+
+```html
+<meta name="twitter:app:url:iphone" content="App URL" />
+```
+
+The code you provided is a Twitter card meta tag that specifies the URL scheme of the iPhone app that should be used to open the content being shared on Twitter. The "name" attribute specifies the type of metadata being defined, in this case, "twitter:app:url:iphone". The "content" attribute provides the value of the metadata, which is the URL scheme of the iPhone app that should be used to open the content.
+
+In the example you provided, the "twitter:app:url:iphone" property specifies the URL scheme of the app as "App URL". This meta tag is used in conjunction with the "twitter:app:name:iphone" and "twitter:app:id:iphone" meta tags to provide additional information about the content being shared on Twitter and the corresponding mobile app that can be used to view the content. This meta tag is optional and is not required for Twitter cards to work properly, but it can be useful in certain cases where it's important to provide additional information about the app being used to view the content.
+
+---
+
+```html
+<meta name="twitter:app:name:googleplay" content="App Name" />
+```
+
+This line specifies the name of the Android app to be used when someone shares your content on Twitter via the official Twitter app for Android.
+In this example, "App Name" is the name of the Android app that you want to be associated with your content when it is shared on Twitter.
+
+---
+
+```html
+<meta name="twitter:app:id:googleplay" content="App ID" />
+```
+
+The twitter:app:id:googleplay meta tag is used to specify the Google Play Store ID for an Android app associated with a Twitter account. This tag is used in conjunction with the twitter:card and twitter:app:url:googleplay tags to allow users to download the associated app directly from Twitter.
+
+---
+
+```html
+<meta name="twitter:app:url:googleplay" content="App URL" />
+```
+
+This meta tag is used to specify the URL of the app on Google Play Store for Android users. By adding this tag, you can provide a direct link to your app on Google Play for users who find your content on Twitter and are interested in downloading your app. The value of the "content" attribute should be the URL of your app's page on Google Play Store.
+
+---
+
+```html
+<meta name="format-detection" content="telephone=no" />
+```
+
+The format-detection meta tag is used to disable automatic detection of possible phone numbers on a web page, which would normally cause them to be highlighted and made clickable. By setting telephone=no, the tag instructs mobile devices not to detect and hyperlink any phone numbers on the web page.
+
+---
+
+```html
+<meta name="referrer" content="no-referrer-when-downgrade" />
+```
+
+The referrer meta tag is used to specify the referrer policy for a web page. It tells the browser how to send the Referer HTTP header when navigating to other pages from the current page. The no-referrer-when-downgrade value specifies that the Referer header should not be sent when navigating from an HTTPS page to an HTTP page, but should be sent for all other navigations. This helps protect the privacy and security of users by limiting the amount of information that is passed between websites.
+
+---
+
+```html
+<meta name="google-site-verification" content="ABC123" />
+```
+
+The google-site-verification meta tag is used to verify ownership of a website with Google. Website owners can use this tag to prove to Google that they have access to the website and should be able to make changes to it.
+
+To use this tag, you need to obtain a verification code from Google and add it to the content attribute of the meta tag. The format of the tag would look something like above tag:
+The code "ABC123" would be replaced with the actual verification code provided by Google.
