@@ -24,7 +24,7 @@ The meta tags included in this template cover:
 
 ## Usage
 
-1. Copy the provided HTML template from the `meta-tags-template.html` file.
+1. Copy the provided HTML template from the `index.html` file.
 2. Replace the placeholder content with your web page's specific information.
 3. Paste the modified HTML template into the `<head>` section of your web page.
 
